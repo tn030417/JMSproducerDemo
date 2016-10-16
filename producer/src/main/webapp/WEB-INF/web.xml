@@ -15,9 +15,6 @@
     <param-value>/WEB-INF/webmvc-dispatcher-servlet.xml</param-value>
   </context-param>
   <listener>
-    <listener-class>controller.StartUpController</listener-class>
-  </listener>
-  <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 </web-app>
